@@ -22,7 +22,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
     let tipWhole = bill.value * (tipPercent / 100);
     let tipEach = tipWhole / people.value;
-    console.log(tipEach);
     tipPerPerson.lastChild.previousElementSibling.innerText = tipEach;
     totalTip.lastChild.previousElementSibling.innerText = tipWhole;
   }
